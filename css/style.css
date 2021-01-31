@@ -1,7 +1,25 @@
 body{
     font-family: 'Roboto', sans-serif;
+    padding-top: 51px;
 }
 
 .special-font{
     font-family: 'Potta One', cursive;
 }
+
+#navbar-container{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    font-size: small;
+}
+
+.nav-link:hover{
+    background-color:#6C757D;
+    color:white!important;
+}
+
+#home-intro-container{
+    background-color: #252734;
+}
+
